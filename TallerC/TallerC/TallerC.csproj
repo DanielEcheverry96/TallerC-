@@ -142,12 +142,20 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CirculoController.cs" />
+    <Compile Include="Controllers\CuadradoController.cs" />
     <Compile Include="Controllers\EdadController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RectanguloController.cs" />
+    <Compile Include="Controllers\TrianguloController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Circulo.cs" />
+    <Compile Include="Models\Cuadrado.cs" />
     <Compile Include="Models\EdadPersona.cs" />
+    <Compile Include="Models\Rectangulo.cs" />
+    <Compile Include="Models\Triangulo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -188,6 +196,10 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Edad\Index.cshtml" />
+    <Content Include="Views\Circulo\Index.cshtml" />
+    <Content Include="Views\Cuadrado\Index.cshtml" />
+    <Content Include="Views\Triangulo\Index.cshtml" />
+    <Content Include="Views\Rectangulo\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
