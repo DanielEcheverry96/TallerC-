@@ -146,6 +146,7 @@
     <Compile Include="Controllers\CuadradoController.cs" />
     <Compile Include="Controllers\EdadController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NumerosConsecutivosController.cs" />
     <Compile Include="Controllers\PesoRecomendadoController.cs" />
     <Compile Include="Controllers\RectanguloController.cs" />
     <Compile Include="Controllers\TrianguloController.cs" />
@@ -155,6 +156,7 @@
     <Compile Include="Models\Circulo.cs" />
     <Compile Include="Models\Cuadrado.cs" />
     <Compile Include="Models\EdadPersona.cs" />
+    <Compile Include="Models\NumerosConsecutivos.cs" />
     <Compile Include="Models\PesoRecomendado.cs" />
     <Compile Include="Models\Rectangulo.cs" />
     <Compile Include="Models\Triangulo.cs" />
@@ -203,6 +205,7 @@
     <Content Include="Views\Triangulo\Index.cshtml" />
     <Content Include="Views\Rectangulo\Index.cshtml" />
     <Content Include="Views\PesoRecomendado\Index.cshtml" />
+    <Content Include="Views\NumerosConsecutivos\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
