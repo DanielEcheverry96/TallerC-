@@ -26,5 +26,10 @@ namespace TallerC.Controllers
 
             return View();
         }
+
+        public ActionResult IndexFiguras()
+        {
+            return View();
+        }
     }
 }

@@ -209,10 +209,10 @@
     <Content Include="Views\PesoRecomendado\Index.cshtml" />
     <Content Include="Views\NumerosConsecutivos\Index.cshtml" />
     <Content Include="Views\Numeros\Index.cshtml" />
+    <Content Include="Views\Home\IndexFiguras.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Eadad\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
